@@ -1,0 +1,39 @@
+/*styling for the layout of the entire site*/
+body{
+    background-color:rgb(65, 83, 202)
+}
+/* styling for the grid view(Get.js) */
+.center{
+    margin: auto;
+    width: 700px;
+}
+.center table thead tr th{
+    padding: 10px;
+    background-color: #57740de1;
+    color: rgba(240, 255, 255, 0.808);
+}
+.center button{
+    border-radius: 5000px;
+}
+/* styling for the submit view (Post.js return) */
+.submitform{
+    margin: auto;
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.submitform label{
+    padding: 7px;
+}
+.submitform input{
+    height: 30px;
+}
+.submitform #createNew{
+ margin: auto;
+ width: 100px;   
+ margin-top: 20px;
+}
+
+
+
